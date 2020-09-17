@@ -291,6 +291,13 @@ namespace Aurora.Settings
         Ducky_Shine_7 = 1200,
         [Description("Ducky One 2 RGB TKL")]
         Ducky_One_2_RGB_TKL = 1201,
+
+        
+        //Msi range is 1300-1399
+        [Description("Msi (WinFn)")]
+        Msi_WinFn = 1300,
+        [Description("Msi (FnWin)")]
+        Msi-FnWin = 1301,
  
     }
 

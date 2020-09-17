@@ -788,8 +788,13 @@ namespace Aurora.Settings
                 layoutConfigPath = Path.Combine(layoutsPath, "ducky_shine_7.json");
             else if (keyboard_preference == PreferredKeyboard.Ducky_One_2_RGB_TKL)
                 layoutConfigPath = Path.Combine(layoutsPath, "ducky_one_2_rgb_tkl.json");
- 
-            else
+
+            else if (keyboard_preference == PreferredKeyboard.Msi_WinFn)
+                layoutConfigPath = Path.Combine(layoutsPath, "Msi_WinFn.json");
+            else if (keyboard_preference == PreferredKeyboard.Msi_FnWin)
+                layoutConfigPath = Path.Combine(layoutsPath, "Msi_FnWin.json");
+
+                else
             {
                 LoadNone();
                 return;

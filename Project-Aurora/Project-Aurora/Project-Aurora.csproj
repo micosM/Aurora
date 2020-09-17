@@ -968,6 +968,12 @@
     <None Include="kb_layouts\masterkeys_mk730.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="kb_layouts\Msi_WinFn.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="kb_layouts\Msi_FnWin.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Profiles\Overlays\VolumeOverlay\Event_VolumeOverlay.cs" />
     <None Include="Profiles\Overlays\VolumeOverlay\VolumeOverlaySettings.cs" />
     <Compile Include="Profiles\Payday 2\Layers\Control_PD2StatesLayer.xaml.cs">
